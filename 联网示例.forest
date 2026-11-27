@@ -1,0 +1,7 @@
+# 森林语言联网示例：运算符直接用 Python 符号
+来自 请求库
+
+请求结果 = 请求库.get("https://httpbin.org/ip", timeout=10)
+
+打印("状态码", 请求结果.status_code)
+打印(请求结果.text)

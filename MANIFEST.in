@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include .gitattributes
+include 使用说明.md
+include CHANGELOG.md
+include 发布说明.md
+include 示例.forest
+include 联网示例.forest
+recursive-include forestlang *.py
+recursive-include tests *.py
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.egg-info
